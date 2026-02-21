@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Kaz.Operations.Core</id>
+    <version>1.0.12</version>
+    <authors>Bronsk1y</authors>
+    <description>Базовые исключения для библиотеки Kaz.Operations.</description>
+    
+    <readme>docs\README.md</readme>
+    <icon>images\OperationsCoreIcon.png</icon>
+    <license type="expression">MIT</license>
+
+    <dependencies>
+      <group targetFramework="net472" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="bin\Release\Kaz.Operations.Core.dll" target="lib\net472" />
+    <file src="bin\Release\Kaz.Operations.Core.xml" target="lib\net472" />
+    
+    <file src="OperationsCoreIcon.png" target="images\" />
+    <file src="README.md" target="docs\" />
+  </files>
+</package>
