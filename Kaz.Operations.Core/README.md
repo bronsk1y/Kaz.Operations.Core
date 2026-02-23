@@ -1,35 +1,48 @@
 # Kaz.Operations.Core 
 
-Базовый пакет с исключениями для библиотеки `Kaz.Operations`.
+Basic package with necessary parameters for the `Kaz.Operations` library.
 
-Используется в `Kaz.Operations.Text`, `Kaz.Operations.Numerics` и других зависимых библиотеках для унифицированной обработки ошибок.
-
----
-## Назначение
-
-Определяет специализированные исключения вместо использования `System.Exception`.
+Used in `Kaz.Operations.Text`, `Kaz.Operations.Numerics` and other dependent libraries.
 
 ---
-## Исключения
+## Enums
 
-- ### StringValidationException
+- ### PercentageCalculationMethod
 
 ```csharp
-throw new StringValidationException("Invalid string value.");
+public enum PercentageCalculationMethod
+{
+    FractionOfTotal,
+    RatioOfTotal
+}
 ```
 
--  ### NumericConvertationException
+-  ### NumberExtractionOptions
 
 ```csharp
-throw new NumericConvertationException("Will be used later.")
+public enum NumberExtractionOptions
+{
+    Digits,
+    Decimals,
+    Scientific
+}
 ```
 ---
-## Установка
+## Installation 
+
+- **.NET CLI:**
 
 ```bash
 dotnet add package Kaz.Operations.Core
+```
+
+- **NuGet Package Manager:**
+
+```powershell
+Install-Package Kaz.Operations.Core
 ```
 ---
 ## Ссылки
 
 - [NuGet](https://www.nuget.org/packages/Kaz.Operations.Core)
+- [GitHub](https://github.com/bronsk1y/Kaz.Operations.Core)
