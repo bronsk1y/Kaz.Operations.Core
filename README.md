@@ -7,6 +7,28 @@ Used in `Kaz.Operations.Text`, `Kaz.Operations.Numerics` and other dependent lib
 ---
 ## Enums
 
+- ### UrlScheme
+
+```csharp
+public enum UrlScheme
+{
+    Any,
+    Http,
+    Https
+}
+```
+
+- ### IpVersion
+
+```csharp
+public enum IpVersion
+{
+    Any,
+    IPv4,
+    IPv6
+}
+```
+
 - ### PercentageCalculationMethod
 
 ```csharp
@@ -45,4 +67,3 @@ Install-Package Kaz.Operations.Core
 ## Ссылки
 
 - [NuGet](https://www.nuget.org/packages/Kaz.Operations.Core)
-- [GitHub](https://github.com/bronsk1y/Kaz.Operations.Core)
