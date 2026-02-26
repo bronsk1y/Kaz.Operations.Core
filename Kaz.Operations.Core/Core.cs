@@ -1,7 +1,45 @@
 ﻿namespace Kaz.Operations.Core
 {
     /// <summary>
-    /// Specifies the calculation logic used for percentage-based operations.
+    /// Specifies which URL scheme is used for validating a provided URL address string.
+    /// </summary>
+    public enum UrlScheme
+    {
+        /// <summary>
+        /// Both <see href="Http"/> and <see href="Https"/> are validated.
+        /// </summary>
+        Any,
+        /// <summary>
+        /// Only <see href="Http"/> is validated.
+        /// </summary>
+        Http,
+        /// <summary>
+        /// Only <see href="Https"/> is validated.
+        /// </summary>
+        Https
+    }
+
+    /// <summary>
+    /// Specifies which IP version is used for validating a provided IP address string.
+    /// </summary>
+    public enum IpVersion
+    {
+        /// <summary>
+        /// Both <see href="IPv4"/> and <see href="IPv6"/> are validated.
+        /// </summary>
+        Any,
+        /// <summary>
+        /// Only <see href="IPv4"/> is validated.
+        /// </summary>
+        IPv4,
+        /// <summary>
+        /// Only <see href="IPv6"/> is validated.
+        /// </summary>
+        IPv6
+    }
+
+    /// <summary>
+    /// Specifies the calculation logic for percentage-based operations.
     /// </summary>
     public enum PercentageCalculationMethod
     {
@@ -16,7 +54,7 @@
     }
 
     /// <summary>
-    /// Specifies the criteria for identifying and extracting numeric sequences from a string.
+    /// Specifies the criteria for identifying and extracting numeric values from a string.
     /// </summary>
     public enum NumberExtractionOptions
     {
@@ -35,4 +73,5 @@
         /// </summary>
         Scientific
     }
+
 }
