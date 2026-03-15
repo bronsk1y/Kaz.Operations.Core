@@ -2,10 +2,12 @@
 
 Basic package with necessary parameters for the `Kaz.Operations` library.
 
+
+## Important ⚠
 - This repository (and its NuGet package) is deprecated and will no longer be maintained. To continue working with the updated structure, install the unified [Kaz.Operations](https://github.com/bronsk1y/Kaz.Operations).
 You can still reference Kaz.Operations.Core in the current version of [Kaz.Operations](https://github.com/bronsk1y/Kaz.Operations) as of March 15, but future versions will not support the standalone Kaz.Operations.Core package.
 
----
+
 ## Enums
 
 - ### UrlScheme
@@ -55,7 +57,6 @@ public enum NumberExtractionOptions
 }
 ```
 
----
 ## Links
 
 - [NuGet](https://www.nuget.org/packages/Kaz.Operations.Core)
