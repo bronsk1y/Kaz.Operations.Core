@@ -2,7 +2,8 @@
 
 Basic package with necessary parameters for the `Kaz.Operations` library.
 
-Used in `Kaz.Operations.Text`, `Kaz.Operations.Numerics` and other dependent libraries.
+- This repository (and its NuGet package) is deprecated and will no longer be maintained. To continue working with the updated structure, install the unified [Kaz.Operations](https://github.com/bronsk1y/Kaz.Operations).
+You can still reference Kaz.Operations.Core in the current version of [Kaz.Operations](https://github.com/bronsk1y/Kaz.Operations) as of March 15, but future versions will not support the standalone Kaz.Operations.Core package.
 
 ---
 ## Enums
@@ -10,6 +11,7 @@ Used in `Kaz.Operations.Text`, `Kaz.Operations.Numerics` and other dependent lib
 - ### UrlScheme
 
 ```csharp
+[Obsolete("Kaz.Operations.Core has been merged into Kaz.Operations. The standalone Kaz.Operations.Core package is deprecated.")]
 public enum UrlScheme
 {
     Any,
@@ -21,6 +23,7 @@ public enum UrlScheme
 - ### IpVersion
 
 ```csharp
+[Obsolete("Kaz.Operations.Core has been merged into Kaz.Operations. The standalone Kaz.Operations.Core package is deprecated.")]
 public enum IpVersion
 {
     Any,
@@ -32,6 +35,7 @@ public enum IpVersion
 - ### PercentageCalculationMethod
 
 ```csharp
+[Obsolete("Kaz.Operations.Core has been merged into Kaz.Operations. The standalone Kaz.Operations.Core package is deprecated.")]
 public enum PercentageCalculationMethod
 {
     FractionOfTotal,
@@ -42,6 +46,7 @@ public enum PercentageCalculationMethod
 -  ### NumberExtractionOptions
 
 ```csharp
+[Obsolete("Kaz.Operations.Core has been merged into Kaz.Operations. The standalone Kaz.Operations.Core package is deprecated.")]
 public enum NumberExtractionOptions
 {
     Digits,
@@ -49,21 +54,8 @@ public enum NumberExtractionOptions
     Scientific
 }
 ```
+
 ---
-## Installation 
-
-- **.NET CLI:**
-
-```bash
-dotnet add package Kaz.Operations.Core
-```
-
-- **NuGet Package Manager:**
-
-```powershell
-Install-Package Kaz.Operations.Core
-```
----
-## Ссылки
+## Links
 
 - [NuGet](https://www.nuget.org/packages/Kaz.Operations.Core)
