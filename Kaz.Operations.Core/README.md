@@ -5,7 +5,7 @@ Basic package with necessary parameters for the `Kaz.Operations` library.
 
 ## Important ⚠
 - This repository (and its NuGet package) is deprecated and will no longer be maintained. To continue working with the updated structure, install the [Kaz.Operations](https://github.com/bronsk1y/Kaz.Operations).
-You can still reference Kaz.Operations.Core in the 1.2.0 version of [Kaz.Operations](https://github.com/bronsk1y/Kaz.Operations/releases/tag/v1.2.0) future versions will not support the standalone Kaz.Operations.Core package.
+You can still reference Kaz.Operations.Core in the 1.2.0 version of [Kaz.Operations](https://github.com/bronsk1y/Kaz.Operations/releases/tag/v1.2.0), however future versions will not support the standalone Kaz.Operations.Core package.
 
 
 ## Enums
